@@ -1,6 +1,6 @@
 import random
 
-name = "Mikey" 
+name = "" 
 question = "Will I make good money tonight at work??"
 
 answer = ""
@@ -36,6 +36,7 @@ if question == "":
 else: 
   if name == "": 
     print("Question: "+ question)
+    print ("Magic 8-Ball's answer: " + answer)
   else:
     print(name +" asks: "+ question)
     print ("Magic 8-Ball's answer: " + answer)
